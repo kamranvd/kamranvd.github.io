@@ -56,3 +56,99 @@
   .position-relative {
       position: relative !important;
   }
+
+  .mymain .cta-btn {
+    color: rgb(14, 12, 12);
+    border: 2px solid green;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    flex-shrink: 0;
+  }
+  
+  .reserve-table .reservation-img {
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .mymain .cta-btn:first-child {
+    margin-right: 10px;
+  }
+  
+  
+  .mymain {
+    background-image: url('../img/mymain-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+  }
+  
+  
+  .content {
+    background-color: white; 
+    padding: 20px;
+  }
+  
+  .dark-background {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white;
+  }
+  
+  section,
+  .section {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #0c0b09;
+    padding: 60px 0;
+    scroll-margin-top: 77px;
+    overflow: clip;
+  }
+  
+  @media (max-width: 1199px) {
+  
+    section,
+    .section {
+      scroll-margin-top: 60px;
+    }
+  }
+  
+  .section-title {
+    padding-bottom: 60px;
+    position: relative;
+  }
+  
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 30%);
+    position: relative;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #cda45e;
+    margin: 4px 10px;
+  }
+  
+  .section-title p {
+    color: #cda45e;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Playfair Display",  sans-serif;
+  }
+  
