@@ -1,8 +1,58 @@
-.navbar {
-    display: flex; 
-    margin-left: auto;
+.navmenu {
+    padding: 0%;
   }
   
-  .navbar-nav { 
-    display: flex; 
+  .navmenu ul {
+    display: flex;
+    flex-direction: row; 
+    list-style: none; 
+    padding: 0;      
+    margin: 0;      
+  }
+  
+  .navmenu ul li {
+    margin-right: 15px; 
+  }
+  
+  .navmenu ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .header .btn-reservation,
+  .header .btn-reservation:focus {
+    color: white;
+    border: 2px solid yellow;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 24px;
+    margin: 0 5px 0 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+  }
+  
+  .header .btn-reservation:hover,
+  .header .btn-reservation:focus:hover {
+    color: white;
+    background: #cda45e;
+  }
+  
+  .header .navbarcontainer {
+      background-color: darkgrey;
+      min-height: 60px;
+      padding: 10px 0px;
+      transition: 0.3s;
+      border-bottom: 1px solid white;
+  }
+  .d-flex {
+      display: flex !important;
+  }
+  
+  .align-items-center {
+      align-items: center !important;
+  }
+  .justify-content-between {
+      justify-content: space-between !important;
+  }
+  .position-relative {
+      position: relative !important;
   }
