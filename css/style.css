@@ -1,5 +1,6 @@
 .navbar {
     display: flex; 
+    margin-left: auto;
   }
   
   .navbar-nav { 
