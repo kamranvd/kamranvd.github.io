@@ -1,7 +1,6 @@
 # kamranvd.github.io
 Business Website
 
-- Kamran Niknia
 - Overview/description of the project
     - This is a business website for a restaurant. It provides a menu list and for customers to make a reservation
 - Details on how to use it or what functionality is offered
